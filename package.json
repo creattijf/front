@@ -1,0 +1,46 @@
+{
+  "name": "todo-app-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 5174",
+    "lint": "echo \"Add ESLint config if needed\" && exit 0"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@fontsource-variable/inter": "^5.2.6",
+    "@fontsource-variable/jetbrains-mono": "^5.2.6",
+    "@fontsource-variable/outfit": "^5.2.6",
+    "@mui/icons-material": "^5.15.14",
+    "@mui/material": "^5.15.14",
+    "@mui/x-date-pickers": "^6.20.2",
+    "@tanstack/react-query": "^5.45.0",
+    "axios": "^1.7.2",
+    "canvas-confetti": "^1.9.3",
+    "chrono-node": "^2.8.4",
+    "date-fns": "^2.30.0",
+    "framer-motion": "^12.23.12",
+    "fuse.js": "^7.1.0",
+    "lottie-react": "^2.4.1",
+    "lottie-web": "^5.13.0",
+    "node-vibrant": "^4.0.3",
+    "notistack": "^3.0.2",
+    "react": "^18.2.0",
+    "react-countup": "^6.5.3",
+    "react-dom": "^18.2.0",
+    "react-hotkeys-hook": "^5.1.0",
+    "react-router-dom": "^6.23.1",
+    "recharts": "^3.1.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@vitejs/plugin-react": "^5.0.0",
+    "typescript": "^5.4.5",
+    "vite": "^5.3.1"
+  }
+}
