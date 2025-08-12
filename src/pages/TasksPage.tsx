@@ -1,6 +1,6 @@
 import { useMemo, useState, useEffect } from 'react'
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query'
-import { createTask, deleteTask, getTasks, updateTask } from '../api/tasksApi'
+import { createTask, deleteTask, getTasks, updateTask } from '../api/tasksAPi'
 import {
   Container,
   Stack,
