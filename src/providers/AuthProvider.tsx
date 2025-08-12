@@ -2,7 +2,7 @@ import { createContext, useCallback, useContext, useEffect, useMemo, useState } 
 import { useNavigate } from 'react-router-dom'
 import { registerAuthBridge } from '../lib/authBridge'
 import { getAccessToken, getRefreshToken, setTokens, clearTokens, setUserEmail, getUserEmail } from '../lib/tokenStorage'
-import * as authApi from '../api/authApi'
+import * as authApi from '../api/authAPi'
 import type { Tokens } from '../types'
 import axios from 'axios'
 
