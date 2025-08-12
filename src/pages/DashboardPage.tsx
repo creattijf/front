@@ -1,6 +1,6 @@
 import { useMemo, useEffect, useState } from 'react'
 import { useQuery } from '@tanstack/react-query'
-import { getTasks } from '../api/tasksApi'
+import * as tasksApi from '../api/tasksApi'
 import type { Task } from '../types'
 import {
   Box,
